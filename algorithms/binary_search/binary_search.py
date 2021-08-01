@@ -1,5 +1,7 @@
-def binary_search(input_array, value):
-    """Your code goes here."""
+from turtle import clear
+
+
+def binary_search(input_array, value):  # O(log(n))
     right = 0
     left = input_array.__len__() - 1
     middle = 0
@@ -17,7 +19,6 @@ def binary_search(input_array, value):
 
 
 def recursive_binary_search(arr, right, left, value):
-
     # Check base case
     if left >= right:
 
@@ -39,5 +40,3 @@ def recursive_binary_search(arr, right, left, value):
     else:
         # Element is not present in the array
         return -1
-
-
