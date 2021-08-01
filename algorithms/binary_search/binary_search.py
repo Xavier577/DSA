@@ -1,6 +1,3 @@
-from turtle import clear
-
-
 def binary_search(input_array, value):  # O(log(n))
     right = 0
     left = input_array.__len__() - 1
