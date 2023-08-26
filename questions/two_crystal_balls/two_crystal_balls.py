@@ -1,5 +1,19 @@
 import math
 
+"""
+Give two crystal balls that will break if dropped from a high enough distance,
+determine the exact spot in which it will break in the most optimized way.
+
+Example
+
+input
+
+floor_lvl = [False, False, False, False, False, True, True, True, True, True]
+
+output
+
+5
+"""
 
 def two_crystal_balls(floor_lvls: list[bool]) -> int:
     floor_lvl_len = len(floor_lvls)
