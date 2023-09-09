@@ -17,5 +17,5 @@ class Queue:
     def values(self):
         return list(self.store)
 
-    def isEmpty(self):
+    def is_empty(self):
         return True if len(self.store) < 1 else False

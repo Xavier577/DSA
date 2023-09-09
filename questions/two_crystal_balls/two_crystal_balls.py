@@ -15,6 +15,7 @@ output
 5
 """
 
+
 def two_crystal_balls(floor_lvls: list[bool]) -> int:
     floor_lvl_len = len(floor_lvls)
 
